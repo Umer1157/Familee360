@@ -92,6 +92,7 @@
 
 .try a:hover {
     padding: 10px 20px 10px 30px;
+    transition: all 0.5s ease;
 }
 
 .try i {
@@ -100,6 +101,7 @@
 
 .try i:hover {
     padding-left: 25px;
+    transition: all 0.5s ease;
 }
 
 .buy a {
@@ -114,6 +116,7 @@
 
 .buy a:hover {
     padding: 10px 20px 10px 30px;
+    transition: all 0.5s ease;
 }
 
 
@@ -123,6 +126,7 @@
 
 .buy i:hover {
     padding-left: 30px;
+    transition: all 0.5s ease;
 }
 
 .mainmedia i {
@@ -149,6 +153,7 @@
     height: 50px;
     width: 110%;
     margin-top: 13px;
+    transition: all 0.5s ease;
 }
 
 .pictures {
@@ -170,6 +175,7 @@
 .pictures img:hover {
     width: 55%;
     height: 55px;
+    transition: all 0.5s ease;
 }
 
 .features {
@@ -190,7 +196,7 @@
     color: #36383b;
 }
 
-.featureslist li{
+.featureslist li {
     display: inline;
 }
 
@@ -205,6 +211,7 @@
 .featureslist a:hover {
     background-color: #453f86;
     color: white;
+    transition: all 0.5s ease;
 }
 
 .featureslist {
@@ -452,7 +459,7 @@
     display: flex;
     width: 50%;
     justify-content: space-evenly;
-    
+
 }
 
 .bannerflex1 {
@@ -519,16 +526,16 @@
     padding: 32px;
 }
 
-.Lasttext a{
+.Lasttext a {
     justify-content: flex-end;
 }
 
 .Lastlinks {
     display: flex;
-    justify-content:end;
+    justify-content: end;
 }
 
-.footer{
+.footer {
     display: flex;
     justify-content: space-evenly;
     background-color: #453f86;
@@ -541,7 +548,7 @@
     padding: 80px 50px 65px 30px;
 }
 
-.footerimg img{
+.footerimg img {
     width: 100%;
 }
 
@@ -562,7 +569,7 @@
     width: 13%;
 }
 
-.location i{
+.location i {
     padding-right: 10px;
 }
 
@@ -571,7 +578,7 @@
     padding-bottom: 10px;
 }
 
-.footer a{
+.footer a {
     color: white;
 }
 
@@ -585,7 +592,7 @@
     display: -webkit-box;
 }
 
-.socialapps{
+.socialapps {
     background-color: #453f86;
     display: flex;
     justify-content: space-between;
@@ -598,7 +605,7 @@
     text-decoration: none;
 }
 
-.apps{
+.apps {
     display: flex;
 }
 
