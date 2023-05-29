@@ -462,10 +462,10 @@
     <div class="container-fluid footer">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-md-3 footerimg">
+                <div class="col-md-3 col-sm-12 footerimg">
                     <img src="./assets/images/FooterLogo.png" alt="">
                 </div>
-                <div class="col-md-2 aboutus">
+                <div class="col-md-2  col-sm-12 aboutus">
                     <h5>ABOUT US</h5>
                     <ul>
                         <li>
@@ -485,7 +485,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-md-2 resources">
+                <div class="col-md-2  col-sm-12 resources">
                     <h5>RESOURCES</h5>
                     <ul>
                         <li>
@@ -499,7 +499,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-md-2 legal">
+                <div class="col-md-2  col-sm-12 legal">
                     <h5>LEGAL</h5>
 
                     <ul>
@@ -514,7 +514,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-md-3 location">
+                <div class="col-md-3  col-sm-12 location">
                     <h5>FIND US</h5>
                     <div class="address">
                         <i class="fa fa-map-marker" aria-hidden="true"></i>
@@ -536,7 +536,7 @@
     <div class="container-fluid">
         <div class="socialapps">
             <div class="container">
-                <div class="row justify-content-center">
+                <div class="row justify-content-around">
                     <div class="col-md-8 copyright">
                         <a href="#">&copy; familee360 is a registered trademark of Qustodio LLC. All Rights Reserved</a>
                     </div>
@@ -585,7 +585,21 @@
             slidesToScroll: 1,
             autoplay: true,
             autoplaySpeed: 2000,
-            arrows: false
+            arrows: false,
+            responsive: [
+                {
+                    breakpoint: 991,
+                    settings: {
+                        slidesToShow: 3,
+                    }
+                },
+                {
+                    breakpoint: 767,
+                    settings: {
+                        slidesToShow: 2,
+                    }
+                }
+            ],
         });
     </script>
 
