@@ -872,7 +872,7 @@
     }
 
     .maintext p {
-        font-size: 0.8rem;
+        font-size: 13px;
         text-align: center;
     }
 
@@ -899,6 +899,10 @@
         width: 100%;
     }
 
+    .features p {
+        font-size: 13px;
+    }
+
     .featureslist ul {
         width: 100%;
         display: block;
@@ -917,6 +921,14 @@
 
     .featuresgroup2text a {
         font-size: 15px;
+    }
+
+    .features p {
+        font-size: 13px;
+    }
+
+    .step1 p {
+        font-size: 13px;
     }
 
     .steps h2 {
@@ -939,12 +951,13 @@
         width: 100%;
         text-align: center;
     }
+
     .reason1 p,
     .reason2 p,
     .reason3 p,
     .reason4 p {
         padding: 15px 17px;
-        font-size: 11px;
+        font-size: 13px;
         width: 100%;
         margin: 0 auto;
         text-align: center;
@@ -980,6 +993,10 @@
 
     .reason4 {
         border: 0px;
+    }
+
+    .user-text p {
+        font-size: 13px;
     }
 
     .bannertext h2 {
@@ -1044,7 +1061,7 @@
 
     .Lasttext p {
         padding-bottom: 25px;
-        font-size: 11px;
+        font-size: 13px;
         margin: 0px;
         width: 100%;
     }
@@ -1202,7 +1219,10 @@
         padding: 25px 0px;
     }
 
-    .reason1 p, .reason2 p, .reason3 p, .reason4 p {
+    .reason1 p,
+    .reason2 p,
+    .reason3 p,
+    .reason4 p {
         width: 95%;
     }
 
