@@ -902,7 +902,7 @@
     .featureslist ul {
         width: 100%;
         display: block;
-        border-radius: 17px;
+        border-radius: 30px;
     }
 
     .featureslist li {
@@ -935,11 +935,10 @@
 
     .flexh5 h5 {
         font-weight: 600;
-        padding: 35px 0px 0px 5px;
-        width: 99%;
-        font-size: 10px;
+        padding: 0px;
+        width: 100%;
+        text-align: center;
     }
-
     .reason1 p,
     .reason2 p,
     .reason3 p,
@@ -947,6 +946,7 @@
         padding: 15px 17px;
         font-size: 11px;
         width: 100%;
+        margin: 0 auto;
         text-align: center;
     }
 
@@ -956,6 +956,12 @@
     }
 
     .reason1-flex {
+        display: block;
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .fleximg {
         display: flex;
         justify-content: center;
     }
@@ -1164,7 +1170,7 @@
     }
 
     .featureslist a {
-        padding: 10px 3px;
+        padding: 20px 3px;
     }
 
     .featuresgroup2text p {
@@ -1196,9 +1202,8 @@
         padding: 25px 0px;
     }
 
-    .reason1-flex {
-        display: flex;
-        justify-content: center;
+    .reason1 p, .reason2 p, .reason3 p, .reason4 p {
+        width: 95%;
     }
 
     .flex_1 {
@@ -1273,6 +1278,7 @@
     .bannerflex1 h3 {
         padding: 25px 0px 0px 15px;
         width: 100%;
+        font-size: 19px;
     }
 
     .bannerflex1 img {
@@ -1289,6 +1295,7 @@
     .bannerflex2 h3 {
         padding: 20px 0px 0px 18px;
         width: 100%;
+        font-size: 19px;
     }
 
     .bannerflex2 img {
