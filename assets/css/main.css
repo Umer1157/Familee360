@@ -41,6 +41,13 @@
     width: 179px;
 }
 
+.mainmedia a {
+    background-color: #453f86;
+    border-radius: 45px;
+    padding: 11px;
+    margin: auto 0px auto -10px;
+}
+
 .navbar {
     display: flex;
     justify-content: end;
@@ -158,12 +165,7 @@
 
 .mainmedia p {
     width: 45%;
-    margin-top: 25px;
-}
-
-.mainmedia img {
-    margin-top: 19px;
-    margin-left: -5px;
+    margin-top: 50px;
 }
 
 .pictures {
@@ -425,6 +427,7 @@
     width: 46%;
     border-radius: 34px;
     height: 357px;
+    position: relative;
 }
 
 .bannerflex2 {
@@ -432,6 +435,7 @@
     width: 46%;
     border-radius: 34px;
     height: 360px;
+    position: relative;
 }
 
 .bannerflex1 h3 {
@@ -449,13 +453,16 @@
 }
 
 .bannerflex1 img {
-    padding: 18px 0px 0px 15px;
     width: 229px;
+    position: absolute;
+    bottom: 0;
 }
 
 .bannerflex2 img {
-    padding: 55px 0px 0px 15px;
     width: 227px;
+    position: absolute;
+    bottom: 0;
+    left: 15px;
 }
 
 .Last {
@@ -647,27 +654,35 @@
     padding: 0px;
 }
 
+.pricingmain {
+    background-image: url(../images/pricingmain.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border-radius: 59px;
+    width: 85%;
+    background-color: #f8f7fe;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.pricingmain p {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
 @media screen and (max-width : 1236px) {
 
     .mainimg img {
         width: 480px;
     }
 
-    .bannerflex1 h3 {
-        width: 89.9%;
-    }
-
-    .bannerflex2 h3 {
-        width: 89.9%;
-    }
-
     .bannerflex2 img {
-        padding: 65px 0px 0px 15px;
         width: 215px;
     }
 
     .bannerflex1 img {
-        padding: 26px 0px 0px 15px;
         width: 220px;
     }
 
@@ -702,21 +717,6 @@
     .reason {
         width: 50%;
         padding: 45px 60px;
-    }
-}
-
-@media screen and (max-width : 1046px) {
-
-    .mainimg img {
-        width: 470px;
-    }
-
-    .bannerflex1 h3 {
-        width: 97%;
-    }
-
-    .bannerflex2 h3 {
-        width: 97%;
     }
 }
 
@@ -801,7 +801,6 @@
     }
 
     .bannerflex1 img {
-        padding: 51px 0px 0px 1px;
         width: 160px;
     }
 
@@ -810,7 +809,6 @@
     }
 
     .bannerflex2 img {
-        padding: 87px 0px 0px 12px;
         width: 160px;
     }
 
@@ -896,8 +894,19 @@
     }
 
     .featureslist a {
-        font-size: 13px;
+        font-size: 15px;
         padding: 36px 0px;
+        width: 100%;
+    }
+
+    .featureslist ul {
+        width: 100%;
+        display: block;
+        border-radius: 17px;
+    }
+
+    .featureslist li {
+        list-style: none;
     }
 
     .featuresgroup2text {
@@ -915,16 +924,20 @@
         margin: 60px auto 30px auto;
     }
 
-    .flexh5 h5 {
-        font-weight: 600;
-        padding: 26px 0px 0px 5px;
-        width: 99%;
-        font-size: 10px;
+    .flex_1 {
+        display: block;
     }
 
-    .reason {
-        width: 50%;
-        padding: 25px 0px;
+
+    .flex_2 {
+        display: block;
+    }
+
+    .flexh5 h5 {
+        font-weight: 600;
+        padding: 35px 0px 0px 5px;
+        width: 99%;
+        font-size: 10px;
     }
 
     .reason1 p,
@@ -934,6 +947,33 @@
         padding: 15px 17px;
         font-size: 11px;
         width: 100%;
+        text-align: center;
+    }
+
+    .reason {
+        padding: 25px 0px;
+        margin: 0 auto;
+    }
+
+    .reason1-flex {
+        display: flex;
+        justify-content: center;
+    }
+
+    .reason1 {
+        border: 0px;
+    }
+
+    .reason2 {
+        border: 0px;
+    }
+
+    .reason3 {
+        border: 0px;
+    }
+
+    .reason4 {
+        border: 0px;
     }
 
     .bannertext h2 {
@@ -954,7 +994,7 @@
     }
 
     .bannerflex1 {
-        width: 48%;
+        width: 49%;
         border-radius: 34px;
         height: 303px;
         margin-top: 20px;
@@ -963,18 +1003,16 @@
     .bannerflex1 h3 {
         color: white;
         padding: 24px 0px 0px 23px;
-        width: 74%;
-        font-size: 14px;
         width: 100%;
+        font-size: 22px;
     }
 
     .bannerflex1 img {
-        padding: 51px 0px 0px 1px;
         width: 160px;
     }
 
     .bannerflex2 {
-        width: 48%;
+        width: 49%;
         border-radius: 34px;
         height: 303px;
         margin-top: 20px;
@@ -983,13 +1021,11 @@
     .bannerflex2 h3 {
         color: white;
         padding: 24px 0px 0px 23px;
-        width: 74%;
-        font-size: 14px;
         width: 100%;
+        font-size: 22px;
     }
 
     .bannerflex2 img {
-        padding: 76px 0px 0px 10px;
         width: 164px;
     }
 
@@ -997,6 +1033,19 @@
         margin: 250px auto 150px auto;
         width: 95%;
         padding: 20px 0px;
+        text-align: center;
+    }
+
+    .Lasttext p {
+        padding-bottom: 25px;
+        font-size: 11px;
+        margin: 0px;
+        width: 100%;
+    }
+
+    .Lastlinks {
+        display: flex;
+        justify-content: center;
     }
 
     .footerimg {
@@ -1037,14 +1086,37 @@
         width: 25%;
     }
 
+    .footer .col-md-2 {
+        display: block;
+        width: 50.666667%;
+        padding: 0px;
+        text-align: center;
+    }
 
+    .location {
+        width: 50%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .address {
+        display: -webkit-box;
+        display: flex;
+        justify-content: center;
+    }
+
+    .col-md-3 {
+        flex: 0 0 auto;
+        width: 50%;
+    }
 
 
 }
 
 @media screen and (max-width : 480px) {
-    .navbarimg img {
-        width: 55%;
+
+    p {
+        font-size: 11px;
     }
 
     .maintext h1 {
@@ -1053,13 +1125,12 @@
     }
 
     .maintext p {
-        font-size: 0.7rem;
         text-align: center;
     }
 
     .mainmedia p {
-        width: 55%;
-        margin-top: 31px;
+        width: 50%;
+        margin-top: 45px;
     }
 
     .greenbtn {
@@ -1073,7 +1144,6 @@
     }
 
     .maintext p {
-        font-size: 0.7rem;
         text-align: center;
     }
 
@@ -1091,22 +1161,10 @@
 
     .features p {
         width: 100%;
-        font-size: 9px;
     }
 
     .featureslist a {
-        font-size: 8px;
         padding: 10px 3px;
-    }
-
-    .featureslist ul {
-        padding: 0px;
-        background-color: #f3f2fe;
-        display: flex;
-        justify-content: space-between;
-        border-radius: 50px;
-        width: 93%;
-        margin: 0 auto;
     }
 
     .featuresgroup2text p {
@@ -1131,12 +1189,16 @@
         padding: 5px 0px;
         margin: 20px auto 15px auto;
         text-align: center;
-        font-size: 11px;
     }
 
     .reason {
         width: 100%;
         padding: 25px 0px;
+    }
+
+    .reason1-flex {
+        display: flex;
+        justify-content: center;
     }
 
     .flex_1 {
@@ -1188,7 +1250,6 @@
     .Lasttext p {
         padding-bottom: 25px;
         font-size: 11px;
-        width: 85%;
         margin-left: auto;
     }
 
@@ -1210,15 +1271,11 @@
     }
 
     .bannerflex1 h3 {
-        color: white;
         padding: 25px 0px 0px 15px;
-        width: 74%;
-        font-size: 10px;
         width: 100%;
     }
 
     .bannerflex1 img {
-        padding: 51px 0px 0px 1px;
         width: 105px;
     }
 
@@ -1230,32 +1287,12 @@
     }
 
     .bannerflex2 h3 {
-        color: white;
         padding: 20px 0px 0px 18px;
-        width: 74%;
-        font-size: 9px;
         width: 100%;
     }
 
     .bannerflex2 img {
-        padding: 79px 0px 0px 15px;
         width: 108px;
     }
-
-
-    .footer .col-md-2 {
-        display: block;
-        width: 50.666667%;
-        padding: 0px;
-        text-align: center;
-    }
-
-    .location {
-        width: 50%;
-        text-align: center;
-        margin: 0 auto;
-    }
-
-
 
 }
