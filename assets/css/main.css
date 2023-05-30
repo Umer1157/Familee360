@@ -920,7 +920,7 @@
     }
 
     .featuresgroup2text a {
-        font-size: 15px;
+        font-size: 13px;
     }
 
     .features p {
@@ -1138,9 +1138,6 @@
 
 @media screen and (max-width : 480px) {
 
-    p {
-        font-size: 11px;
-    }
 
     .maintext h1 {
         font-size: 1.0rem;
@@ -1194,10 +1191,6 @@
         margin: 11px 0px;
     }
 
-    .featuresgroup2text a {
-        font-size: 11px;
-    }
-
     .steps h2 {
         width: 60%;
         margin: 60px auto 30px auto;
@@ -1205,7 +1198,7 @@
 
     .step1 label {
         width: 50%;
-        font-size: 11px;
+        font-size: 13px;
     }
 
     .step1 p {
@@ -1249,10 +1242,6 @@
         display: none;
     }
 
-    .user-text p {
-        font-size: 11px;
-    }
-
     .banner {
         background-color: #453f86;
         display: flex;
@@ -1274,7 +1263,6 @@
 
     .Lasttext p {
         padding-bottom: 25px;
-        font-size: 11px;
         margin-left: auto;
     }
 
