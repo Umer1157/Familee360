@@ -665,7 +665,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    border-radius: 59px;
+    border-radius: 22px;
     width: 85%;
     background-color: #f8f7fe;
     height: 500px;
@@ -717,14 +717,14 @@
 
 .pf-1 {
     background-color: white;
-    border-radius: 40px;
+    border-radius: 22px;
     box-shadow: -13px 11px 23px -13px rgba(0, 0, 0, 0.52);
     height: 450px;
 }
 
 .pf-2 {
     background-color: #e6fcf6;
-    border-radius: 40px;
+    border-radius: 22px;
     border: 1px solid #0f8b69;
     box-shadow: -13px 11px 23px -13px rgba(0, 0, 0, 0.52);
     height: 450px;
@@ -955,6 +955,32 @@
         color: white;
         padding: 5px 10px;
         font-size: 0.7rem;
+    }
+
+    .pricingflex {
+        margin-top: 50px;
+    }
+
+    .pricingflex h3 {
+        text-align: center;
+        padding: 50px 0px 10px 0px;
+        font-size: 20px;
+    }
+
+    .pricingflex p {
+        width: 100%;
+    }
+
+    .pf-2 label {
+        width: 75%;
+    }
+
+    .pf-1 p {
+        font-size: 12px;
+    }
+
+    .pf-2 p {
+        font-size: 12px;
     }
 
 
@@ -1230,6 +1256,35 @@
         width: 50%;
     }
 
+    .generalp p {
+        text-align: center;
+        margin: 0 auto;
+        width: 85%;
+        font-size: 13px;
+    }
+
+    .pf-1 {
+        height: 350px;
+        margin-bottom: 50px;
+    }
+
+    .pf-2 {
+        height: 350px;
+    }
+
+    .pricingmain {
+        height: 825px
+    }
+
+    .pf-1 p {
+        font-size: 12px;
+        width: 75%;
+    }
+
+    .pf-2 p {
+        font-size: 12px;
+        width: 75%;
+    }
 
 }
 
@@ -1405,6 +1460,22 @@
 
     .bannerflex2 img {
         width: 108px;
+    }
+
+    .pf-1 p {
+        font-size: 11px;
+        width: 95%;
+    }
+
+    .pf-2 p {
+        font-size: 11px;
+        width: 95%;
+    }
+
+    .pricingflex h3 {
+        text-align: center;
+        padding: 30px 0px 10px 0px;
+        font-size: 15px;
     }
 
 }
