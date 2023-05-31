@@ -29,6 +29,12 @@
     color: #0f8b69;
 }
 
+.generalp p {
+    text-align: center;
+    margin: 0 auto;
+    width: 70%;
+}
+
 .mainlinks i {
     padding-left: 20px;
 }
@@ -663,13 +669,104 @@
     width: 85%;
     background-color: #f8f7fe;
     height: 500px;
+    margin: 0px auto 160px auto;
+}
+
+.pricingflex p {
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.pricingflex a {
+    text-align: center;
+    display: block;
+    margin: 8px auto 25px auto;
+    text-decoration: none;
+    font-size: 11px;
+}
+
+.pricingflex {
+    margin-top: 85px;
+}
+
+.pricingflex h3 {
+    text-align: center;
+    padding: 80px 0px 10px 0px;
+    font-size: 20px;
+}
+
+.pricingbutton1 {
+    width: 50%;
     margin: 0 auto;
 }
 
-.pricingmain p {
-    text-align: center;
+.pricingbutton2 {
     width: 50%;
     margin: 0 auto;
+}
+
+.pricingbutton1 a {
+    color: #453f86;
+}
+
+
+.pricingbutton2 a {
+    color: white;
+}
+
+.pf-1 {
+    background-color: white;
+    border-radius: 40px;
+    box-shadow: -13px 11px 23px -13px rgba(0, 0, 0, 0.52);
+    height: 450px;
+}
+
+.pf-2 {
+    background-color: #e6fcf6;
+    border-radius: 40px;
+    border: 1px solid #0f8b69;
+    box-shadow: -13px 11px 23px -13px rgba(0, 0, 0, 0.52);
+    height: 450px;
+}
+
+.pf-1 p {
+    font-size: 14px;
+}
+
+.pf-2 p {
+    font-size: 14px;
+}
+
+.pf-2 label {
+    text-align: center;
+    background-color: #e6fcf6;
+    border-radius: 40px;
+    border: 1px solid #0f8b69;
+}
+
+.pricingflex span {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.pf-2 label {
+    text-align: center;
+    background-color: #e6fcf6;
+    border-radius: 40px;
+    border: 1px solid #0f8b69;
+    justify-content: center;
+    width: 60%;
+    margin: -11.5px auto;
+    display: block;
+}
+
+.faqs {
+    padding-top: 70px;
+}
+
+.faqsaccordian {
+    margin: 75px 0px;
 }
 
 @media screen and (max-width : 1236px) {
@@ -695,7 +792,7 @@
     }
 
     .navbar-expand-lg .navbar-nav .nav-link {
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
 
     .reason1 p,
@@ -1076,7 +1173,7 @@
         display: flex;
         justify-content: center;
     }
-    
+
     .footer h5 {
         font-weight: 500;
         font-size: 20px;
