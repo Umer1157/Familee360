@@ -961,7 +961,7 @@
 
 }
 
-@media screen and (max-width : 768px) {
+@media screen and (max-width : 767px) {
 
     .maintext h1 {
         font-size: 1.5rem;
@@ -1011,7 +1011,7 @@
     }
 
     .featuresgroup2text {
-        width: 75%;
+        width: 50%;
         text-align: center;
         margin: 0 auto;
     }
