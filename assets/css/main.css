@@ -152,13 +152,13 @@
 }
 
 .greenbtn:hover {
-    padding: 8px 18px 8px 28px;
     color: white;
+    box-shadow: 0px 0px 18px -6px #0f8b69;
 }
 
 .whitebtn:hover {
-    padding: 8px 18px 8px 28px;
     color: #453f86;
+    box-shadow: 0px 0px 18px -6px #453f86;
 }
 
 .mainmedia i {
@@ -681,7 +681,7 @@
 .pricingflex a {
     text-align: center;
     display: block;
-    margin: 8px auto 25px auto;
+    margin: 8px auto 22px auto;
     text-decoration: none;
     font-size: 11px;
 }
@@ -698,28 +698,33 @@
 
 .pricingbutton1 {
     width: 50%;
-    margin: 0 auto;
+    margin: 25px auto 35px auto;
+    padding: 10px 0px;
 }
 
 .pricingbutton2 {
     width: 50%;
-    margin: 0 auto;
+    margin: 25px auto 35px auto;
+    padding: 10px 0px;
 }
 
 .pricingbutton1 a {
     color: #453f86;
+    margin: 0px;
+
 }
 
 
 .pricingbutton2 a {
     color: white;
+    margin: 0px;
 }
 
 .pf-1 {
     background-color: white;
     border-radius: 22px;
     box-shadow: -13px 11px 23px -13px rgba(0, 0, 0, 0.52);
-    height: 450px;
+    height: 465px;
 }
 
 .pf-2 {
@@ -727,7 +732,7 @@
     border-radius: 22px;
     border: 1px solid #0f8b69;
     box-shadow: -13px 11px 23px -13px rgba(0, 0, 0, 0.52);
-    height: 450px;
+    height: 465px;
 }
 
 .pf-1 p {
@@ -768,6 +773,45 @@
 .faqsaccordian {
     margin: 75px 0px;
 }
+
+.pricingflex .col-md-4:first-child a {
+    color: #453f86;
+}
+
+.pricingflex .col-md-4:first-child div a:last-child {
+    background-color: transparent;
+    padding: 0;
+    border-radius: 0;
+    color: #453f86;
+}
+
+.pricingflex .col-md-4:first-child a:last-child {
+    background-color: #f8f7fe;
+    padding: 11px;
+    border-radius: 35px;
+    color: black;
+}
+
+.pricingflex .col-md-4:last-child a {
+    color: #0f8b69;
+}
+
+.pricingflex .col-md-4:last-child div a:last-child {
+    background-color: transparent;
+    padding: 0;
+    border-radius: 0;
+    color: white;
+}
+
+.pricingflex .col-md-4:last-child a:last-child {
+    background-color: white;
+    padding: 10px;
+    border-radius: 35px;
+    color: black;
+}
+
+
+
 
 @media screen and (max-width : 1236px) {
 
@@ -815,6 +859,14 @@
         width: 50%;
         padding: 45px 60px;
     }
+
+    .pricingflex p {
+        width: 90%;
+    }
+
+    .pricingflex h3 {
+        padding: 70px 0px 10px 0px;
+    }
 }
 
 @media screen and (max-width : 992px) {
@@ -824,11 +876,11 @@
     }
 
     .greenbtn {
-        padding: 3px 8px 3px 15px;
+        padding: 3px 7px 3px 15px;
     }
 
     .whitebtn {
-        padding: 3px 8px 3px 15px;
+        padding: 3px 7px 3px 15px;
     }
 
     .maintext h1 {
@@ -1264,12 +1316,12 @@
     }
 
     .pf-1 {
-        height: 350px;
+        height: 370px;
         margin-bottom: 50px;
     }
 
     .pf-2 {
-        height: 350px;
+        height: 370px;
     }
 
     .pricingmain {
@@ -1284,6 +1336,14 @@
     .pf-2 p {
         font-size: 12px;
         width: 75%;
+    }
+
+    .pricingbutton1 {
+        margin: 20px auto 25px auto;
+    }
+
+    .pricingbutton2 {
+        margin: 20px auto 25px auto;
     }
 
 }
@@ -1443,6 +1503,7 @@
 
     .bannerflex1 img {
         width: 105px;
+        left: 11px;
     }
 
     .bannerflex2 {
@@ -1460,6 +1521,7 @@
 
     .bannerflex2 img {
         width: 108px;
+        left: 21px;
     }
 
     .pf-1 p {
@@ -1476,6 +1538,14 @@
         text-align: center;
         padding: 30px 0px 10px 0px;
         font-size: 15px;
+    }
+
+    .pf-1 {
+        height: 385px;
+    }
+
+    .pf-2 {
+        height: 385px;
     }
 
 }
