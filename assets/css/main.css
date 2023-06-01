@@ -810,6 +810,42 @@
     color: black;
 }
 
+.featurepage{
+    padding-top: 80px;
+}
+
+.featurenoflex {
+    padding: 45px 0px;
+}
+
+.featurepagetext {
+    width: 55%;
+}
+
+.featurepagetext h3 {
+    border-left: 2px solid #453f86;
+    padding-left: 15px;
+    width: 50%;
+}
+
+.featurepageimg img {
+    padding-left: 80px;
+}
+
+.featurepageimgright img {
+    width: 369px;
+}
+
+.featurepageimg {
+    background-color: #f8f7fd;
+    width: 32%;
+}
+
+.featurepageimgright {
+    background-color: #e6fcf6;
+    width: 35%;
+    height: 240px;
+}
 
 
 
