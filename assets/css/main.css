@@ -819,7 +819,7 @@
 }
 
 .allfeatures .featurepage:nth-child(2) .featurenoflex {
-    padding: 20px 0px;
+    padding: 15px 0px;
 }
 
 .allfeatures .featurepage:nth-child(3) .featurenoflex {
@@ -843,7 +843,8 @@
 .featurepageimg {
     background-color: #f8f7fd;
     width: 32%;
-    border-radius: 25px;
+    border-top-right-radius:  25px;
+    border-bottom-right-radius: 25px;
 }
 
 .featurepageimg img {
@@ -855,11 +856,12 @@
     width: 35%;
     height: 240px;
     position: relative;
-    border-radius: 25px;
+    border-top-left-radius:  25px;
+    border-bottom-left-radius: 25px;
 }
 
 .featurepageimgright img {
-    width: 369px;
+    width: 289px;
     position: absolute;
     left: -35%;
 }
