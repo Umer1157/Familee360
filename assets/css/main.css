@@ -913,7 +913,42 @@
     margin: -45px;
 }
 
-.download{
+.page-item:not(:first-child) .page-link {
+    margin-left: 0px;
+    padding: 0.375rem 1.5rem;
+}
+
+.page-link {
+    color: black;
+    border: 0px solid transparent;
+}
+
+.page-item a {
+    border-bottom: 1px solid #d7d7d8;
+    font-size: 25px;
+}
+
+.page-link:hover {
+    z-index: 2;
+    color: #453f86;
+    background-color: white;
+    border-color: white;
+    border-bottom: 2px solid #453f86;
+    font-weight: 700;
+}
+
+.page-link:focus {
+    z-index: 2;
+    color: #453f86;
+    background-color: white;
+    border-color: white;
+    border-bottom: 2px solid #453f86;
+    font-weight: 700;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem white;
+}
+
+.download {
     margin-top: 80px;
 }
 
@@ -953,6 +988,10 @@
 .downloadbannerheading h3 {
     font-size: 29px;
     font-weight: 700;
+}
+
+.downloadimg p {
+    font-size: inherit;
 }
 
 .download .col-md-3:first-child {
@@ -1015,8 +1054,6 @@
     border-top-left-radius: 3.25rem;
     border-bottom-left-radius: 3.25rem;
 }
-
-
 
 
 @media screen and (max-width : 1236px) {
@@ -1097,6 +1134,23 @@
 
     .allfeatures .featurepage:nth-child(4) .featurenoflex {
         padding: 0px 0px;
+    }
+
+    .download .col-md-3:nth-child(2) .downloadheadingflex {
+        padding-left: 25px;
+    }
+
+    .downloadbannerheading h3 {
+        font-size: 23px;
+    }
+
+    .download .col-md-11 {
+        height: 350px;
+    }
+
+    .download .col-md-3:nth-child(3) .downloadheadingflex {
+        padding-left: 25px;
+        padding-top: 20px;
     }
 
 
@@ -1294,7 +1348,43 @@
         padding: 70px 0px;
     }
 
+    .page-item a {
+        font-size: 20px;
+    }
 
+    .downloadnumber h3 {
+        font-size: 60px;
+    }
+
+    .downloadbannerheading h3 {
+        font-size: 15px;
+    }
+
+    .downloadimg p {
+        font-size: 11px;
+    }
+
+    .downloadbanner {
+        height: 415px;
+    }
+
+    .input-group {
+        width: 60%;
+        padding-top: 30px;
+    }
+
+    .download .col-md-11 {
+        height: 285px;
+    }
+
+    .download .col-md-3:nth-child(3) .downloadimg img {
+        bottom: 25px;
+        width: 70%;
+    }
+
+    .downloadimg img {
+        width: 70%;
+    }
 
 }
 
@@ -1562,7 +1652,7 @@
         justify-content: center;
     }
 
-    .col-md-3 {
+    .footer .col-md-3 {
         flex: 0 0 auto;
         width: 50%;
     }
@@ -1638,6 +1728,67 @@
         margin: 30px 0px;
     }
 
+    .page-item a {
+        font-size: 15px;
+    }
+
+    .downloadbanner .col-md-2 {
+        padding: 0px;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .downloadbannerheading h3 {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .downloadimg p {
+        font-size: 11px;
+        text-align: center;
+    }
+
+    .downloadimg img {
+        bottom: 0;
+        left: 30%;
+    }
+
+    .download .col-md-3:nth-child(3) .downloadimg img {
+        bottom: 25px;
+        width: 40%;
+    }
+
+    .input-group {
+        width: 90%;
+        padding-top: 30px;
+    }
+
+    .download .col-md-3:first-child .downloadheadingflex {
+        padding-left: 0px;
+        padding-top: 20px;
+    }
+
+    .download .col-md-3:nth-child(2) .downloadheadingflex {
+        padding-left: 0px;
+        padding-top: 20px;
+    }
+
+    .download .col-md-3:nth-child(3) .downloadheadingflex {
+        padding-left: 0px;
+        padding-top: 20px;
+    }
+
+    .downloadimg img {
+        bottom: 0;
+        left: 30%;
+        width: 40%;
+    }
+
+    .downloadbanner {
+        height: 415px;
+        margin-top: 30px;
+    }
 
 
 }
@@ -1847,4 +1998,37 @@
         font-size: 13px;
     }
 
+    .btn {
+        padding: 0.375rem 1rem;
+        font-size: 11px;
+    }
+
+    .input-group {
+        width: 100%;
+        padding-top: 0px;
+    }
+
+    .form-control {
+        padding: 0.5rem 0.2rem;
+        border-radius: 3.25rem;
+        font-size: 11px;
+    }
+
+    .downloadbanner {
+        height: 345px;
+        margin-top: 30px;
+    }
+
+    .pagination {
+        margin-top: 50px;
+    }
+
+    .page-item a {
+        font-size: 12px;
+    }
+
+    .download .col-md-11 {
+        height: 285px;
+        margin: 0px;
+    }
 }
