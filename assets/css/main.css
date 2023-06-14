@@ -2196,4 +2196,8 @@
     .topblogcards {
         margin-bottom: 100px;
     }
+
+    .number h2 {
+        padding-right: 0px;
+    }
 }
